@@ -1,8 +1,7 @@
-import React from 'react';
-import './App.css';
+import React, {useState} from 'react';
+import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
-import Nav from './components/Nav';
 
 function App() {
   const [categories] = useState([
