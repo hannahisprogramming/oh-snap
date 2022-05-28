@@ -4,7 +4,8 @@ function ContactForm() {
   //jsx
   return (
     <section>
-      <h1 id="contact-form">
+      <h1>Contact Me</h1>
+      <form id="contact-form">
         <div>
           <label htmlFor="name">Name:</label>
           <input type={email} name="email" />
@@ -16,9 +17,9 @@ function ContactForm() {
         <div>
           <label htmlFor="message">Message:</label>
           <textarea name="message" rows="5" />
-          <button type="submit">Submit</button>
         </div>
-      </h1>
+        <button type="submit">Submit</button>
+      </form>
     </section>
   );
 }
