@@ -114,7 +114,7 @@ const PhotoList = ({category}) => {
   return (
     <div>
       {isModalOpen && (
-        <Modal onClose={toggleModal} currentPhoto={currentPhoto}/>
+        <Modal currentPhoto={currentPhoto} onClose={toggleModal} />
       )}
       <div className="flex-row">
         {currentPhotos.map((image, i) => (
